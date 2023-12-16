@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenville</title>
+    <link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
+        <link rel="stylesheet" href="sass/main.css" />
+        <link rel="stylesheet" href="sass/main.scss" />
+
+
+
+</head>
+<body>
+    <header #="top">
+        <nav
+            class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary bg-gradient border-1 border-bottom py-3"
+        >
+            <div class="container-xl">
+                <a class="navbar-brand" href="#">Greenville Deli</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/newsletter.html">Subscribe to Our Newsletter</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                        />
+                        <button class="btn btn-outline-light" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid bg-primary text-light py-5 my-5">
+            <div class="container-xl">
+                <div class="row vh-50 d-flex align-items-center">
+                    <div class="col-md-6">
+                        
+                        <h1 class="fw-bold lh-1 display-1">
+                            Greenville
+                        </h1>
+                        <p class="fw-semibold text-uppercase">
+                            Bringing Quality Munch to Dublin
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./images/Greenvillelogo.png" class="img-fluid" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="menu-container mt-4">
+        <h1 class="text-center mb-4">Most Popular</h1>
+    
+        <div class="row">
+          <div class="col-md-4 col-sm-6 my-1">
+            <div class="card mb-4">
+              <img src="./images/food4.jpg" class="card-img-top" alt="Dish 1">
+              <div class="card-body bg-success">
+                <h5 class="text-white">Dish 1</h5>
+                <p class="text-white">Description of Dish 1.</p>
+                <p class="text-white">€10.99</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 col-sm-6 my-1">
+            <div class="card mb-4">
+              <img src="./images/food3.jpg" class="card-img-top" alt="Dish 2">
+              <div class="card-body bg-success">
+                <h5 class="text-white">Dish 2</h5>
+                <p class="text-white">Description of Dish 2.</p>
+                <p class="text-white">€12.99</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 my-1">
+            <div class="card mb-4">
+              <img src="./images/food2.jpg" class="card-img-top" alt="Dish 2">
+              <div class="card-body bg-success">
+                <h5 class="text-white">Dish 2</h5>
+                <p class="text-white">Description of Dish 2.</p>
+                <p class="text-white">€12.99</p>
+              </div>
+            </div>
+          </div>
+    
+        
+				  <div class="container-lg bg-success text-light my-5 py-5">
+          <!-- Add more cards for additional menu items -->
+          <div class="menu-container mt-5">
+            <h1 class="text-center mb-4">Starters</h1>
+
+            <div class="container mt-5">
+                <div class="card bg-white">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <div class="img-circ">
+                        <img src="./images/starter1.jpg" class="img-circ rounded-circle" alt="Dish 1">
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Roman Plate</h5>
+                        <p class="card-text">Tuscan parma ham surrounded with fresh italian olives and spanish peppers paired with bread sticks and Fresh mozerella cheese.</p>
+                        <p class="card-price">€10.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="container mt-5">
+                <div class="card bg-white">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <div class="circle-image">
+                        <img src="./images/starter1.jpg" class="img-circ rounded-circle" alt="Dish 1">
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Dish 1</h5>
+                        <p class="card-text">Description of Dish 1.</p>
+                        <p class="card-price">€10.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="container mt-5">
+                <div class="card bg-white">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <div class="circle-image">
+                        <img src="./images/starter1.jpg" class="img-circ rounded-circle" alt="Dish 1">
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Dish 1</h5>
+                        <p class="card-text">Description of Dish 1.</p>
+                        <p class="card-price">€10.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container mt-5">
+                <div class="card bg-white">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <div class="circle-image">
+                        <img src="./images/starter1.jpg" class="img-circ rounded-circle" alt="Dish 1">
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Dish 1</h5>
+                        <p class="card-text">Description of Dish 1.</p>
+                        <p class="card-price">€10.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+              <!--  -->
+              
+           
+            </div>
+          </div>
+          <div class="container-fluid bg-secondary text-light my-5 py-5">
+          <div class="MainsContainer mt-5">
+            <h1 class="text-center mb-4">Mains</h1>
+
+            <!-- Food Display Section -->
+    
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="./images/food2.jpg" class="card-img-top" alt="Food Item 1">
+          <div class="card-body">
+            <h5 class="card-title">Grilled Salmon</h5>
+            <p class="card-text">Freshly grilled salmon fillet served with lemon and herbs.</p>
+            <p class="card-text">$14.99</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="./images/food3.jpg" class="card-img-top" alt="Food Item 2">
+          <div class="card-body">
+            <h5 class="card-title">Margherita Pizza</h5>
+            <p class="card-text">Classic Margherita pizza with tomato, mozzarella, and fresh basil.</p>
+            <p class="card-text">$12.99</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="./images/food3.jpg" class="card-img-top" alt="Food Item 3">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Lava Cake</h5>
+            <p class="card-text">Decadent chocolate lava cake with a gooey center.</p>
+            <p class="card-text">$8.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+            
+            
+          </div>
+        </div>
+
+        <!-- Side Dishes Section -->
+  <div class="container mt-5">
+    <h1>Side Dishes</h1>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Garlic Parmesan Fries</h5>
+            <p class="card-text">Crispy fries tossed with garlic and Parmesan cheese.</p>
+            <p class="card-text">$5.99</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Caprese Salad</h5>
+            <p class="card-text">Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.</p>
+            <p class="card-text">$7.99</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Caprese Salad</h5>
+            <p class="card-text">Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.</p>
+            <p class="card-text">$7.99</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Caprese Salad</h5>
+            <p class="card-text">Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.</p>
+            <p class="card-text">$7.99</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Caprese Salad</h5>
+            <p class="card-text">Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.</p>
+            <p class="card-text">$7.99</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Caprese Salad</h5>
+            <p class="card-text">Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.</p>
+            <p class="card-text">$7.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+          
+
+        
+    
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+   
+
+
+
+
+</body>
+
+<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+			crossorigin="anonymous"
+
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		 ></script>
+</html>
