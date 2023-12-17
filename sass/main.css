@@ -23178,6 +23178,10 @@ body {
   max-width: 300px;
 }
 
+.descip {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 header {
   color: #fff;
   text-align: center;
