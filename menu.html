@@ -23,7 +23,7 @@
 <body>
     <header #="top">
         <nav
-            class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary bg-gradient border-1 border-bottom py-3"
+            class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary border-1 border-bottom py-3"
         >
             <div class="container-xl">
                 <a class="navbar-brand" href="#">Greenville Deli</a>
@@ -41,10 +41,10 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/menu.html">Menu</a>
+                            <a class="nav-link active" aria-current="page" href="/menu.html">Menu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/newsletter.html">Subscribe to Our Newsletter</a>
@@ -90,49 +90,12 @@
   <!--  -->
 
     <div class="menu-container mt-4 py-5 my-5">
-        <h1 class="text-center mb-4">Menu</h1>
+        <h1 class="menu text-center mb-4">Menu</h1>
     
-        <div class="row container-fluid">
-          <!-- <div class="col-md-4 col-sm-4 my-1">
-            <div class="cardPop md-4">
-              <img src="./images/food4.jpg" class="card-img-top" alt="Dish 1">
-              <div class="card-body bg-success">
-                <h5 class="text-white">Dish 1</h5>
-                <p class="text-white">Description of Dish 1.</p>
-                <p class="text-white">€10.99</p>
-              </div>
-            </div>
-          </div>
-    
-          <div class="col-md-4 col-sm-6 my-1">
-            <div class="cardPop md-4">
-              <img src="./images/food3.jpg" class="card-img-top" alt="Dish 2">
-              <div class="card-body bg-success">
-                <h5 class="text-white">Dish 2</h5>
-                <p class="text-white">Description of Dish 2.</p>
-                <p class="text-white">€12.99</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-6 my-1">
-            <div class="cardPop md-4">
-              <img src="./images/food2.jpg" class="card-img-top" alt="Dish 2">
-              <div class="card-body bg-success">
-                <h5 class="text-white">Dish 2</h5>
-                <p class="text-white">Description of Dish 2.</p>
-                <p class="text-white">€12.99</p>
-              </div>
-            </div>
-          </div> -->
-          
-        
-
-    
-        
-				  <div class="container-fluid bg-success text-light my-5 py-5">
+        <div class="row container-fluid bg-success">
+				  <div class="container bg-success text-light my-5 py-5">
           <!-- Add more cards for additional menu items -->
-            <h1 class="text-center mb-4">Something Light</h1>
+            <h1 class="menu text-center mb-4">Something Light</h1>
 
             <div class="container mt-5">
                 <div class="card bg-white">
@@ -145,8 +108,8 @@
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">Roman Plate</h5>
-                        <p class="card-text">Tuscan parma ham surrounded with fresh italian olives and spanish peppers paired with bread sticks and Fresh mozerella cheese.</p>
-                        <p class="card-price">€10.99</p>
+                        <p class="descip">Tuscan parma ham surrounded with fresh italian olives and spanish peppers paired with bread sticks and Fresh mozerella cheese.</p>
+                        <p class="card-price">€6.00</p>
                       </div>
                     </div>
                   </div>
@@ -164,8 +127,8 @@
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">Greenville Mixed Salad</h5>
-                        <p class="card-text">Indulge in the creamy texture of goat cheese, the crunch of candied pecans, and the savory goodness of grilled chicken or smoked salmon. Each topping is carefully chosen to elevate your salad to a gourmet experience.</p>
-                        <p class="card-price">€10.99</p>
+                        <p class="descip">Indulge in the creamy texture of goat cheese, the crunch of candied pecans, and the savory goodness of grilled chicken or smoked salmon. Each topping is carefully chosen to elevate your salad to a gourmet experience.</p>
+                        <p class="card-price">€5.50</p>
                       </div>
                     </div>
                   </div>
@@ -183,8 +146,8 @@
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">Baguette Avocado Slices</h5>
-                        <p class="card-text">Experience the buttery richness of perfectly ripe avocados, expertly sliced and elegantly arranged on the baguette. </p>
-                        <p class="card-price">€10.99</p>
+                        <p class="descip">Experience the buttery richness of perfectly ripe avocados, expertly sliced and elegantly arranged on the baguette. </p>
+                        <p class="card-price">€4.00</p>
                       </div>
                     </div>
                   </div>
@@ -202,8 +165,8 @@
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">Carrot and Parsnip Soup</h5>
-                        <p class="card-text">Immerse yourself in the richness of freshly harvested carrots and parsnips, handpicked at the peak of their flavor. Each spoonful is a celebration of the bountiful autumn harvest.</p>
-                        <p class="card-price">€10.99</p>
+                        <p class="descip">Immerse yourself in the richness of freshly harvested carrots and parsnips, handpicked at the peak of their flavor. Each spoonful is a celebration of the bountiful autumn harvest.</p>
+                        <p class="card-price">€6.00</p>
                       </div>
                     </div>
                   </div>
@@ -218,7 +181,7 @@
           </div>
           <div class="container-fluid bg-secondary text-light my-5 py-5">
           <div class="mainsContainer mt-4 my-5 py-5">
-            <h1 class="text-center mb-4">Wraps, Sambos and Baps</h1>
+            <h1 class="menu text-center mb-4">Wraps, Sambos and Baps</h1>
 
             <!-- Food Display Section -->
     
@@ -251,7 +214,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Ham Sambo with Mixed Veg</h5>
                     <p class="descip">Classic sambo with tomato and lettuce.</p>
-                    <p class="card-text">$8.99</p>
+                    <p class="card-text">€8.99</p>
                   </div>
                 </div>
               </div>
@@ -302,14 +265,14 @@
 
         <!-- Side Dishes Section -->
   <div class="container-lg mt-5">
-    <h1>Side Dishes</h1>
+    <h1 class="menu">Side Dishes</h1>
     
     <div class="row">
       <div class="col-md-6">
         <div class="card mb-4">
           <div class="card-body">
             <h5 class="card-title">Garlic Parmesan Fries</h5>
-            <p class="card-text">Crispy fries tossed with garlic and Parmesan cheese.</p>
+            <p class="descip">Crispy fries tossed with garlic and Parmesan cheese.</p>
             <p class="card-text">$5.99</p>
           </div>
         </div>
@@ -321,7 +284,7 @@
         <div class="card mb-4">
           <div class="card-body">
             <h5 class="card-title">Spicy Potato Wedges</h5>
-            <p class="card-text">Served with thyme and spices of your choice.</p>
+            <p class="descip">Served with thyme and spices of your choice.</p>
             <p class="card-text">€4.00</p>
           </div>
         </div>
@@ -331,7 +294,7 @@
         <div class="card mb-4">
           <div class="card-body">
             <h5 class="card-title">Mozerella Sticks</h5>
-            <p class="card-text">Fresh mozzarella filled bites toped with chives.</p>
+            <p class="descip">Fresh mozzarella filled bites toped with chives.</p>
             <p class="card-text">€3.50</p>
           </div>
         </div>
@@ -341,7 +304,7 @@
         <div class="card mb-4">
           <div class="card-body">
             <h5 class="card-title">Tomatoes and Mushrooms</h5>
-            <p class="card-text">A small plate of fresh tomatoes and mushrooms.</p>
+            <p class="descip">A small plate of fresh tomatoes and mushrooms.</p>
             <p class="card-text">€2.50</p>
           </div>
         </div>
@@ -351,7 +314,7 @@
         <div class="card mb-4">
           <div class="card-body">
             <h5 class="card-title">Chicken Strips</h5>
-            <p class="card-text">4 delicous fried chicken strips.</p>
+            <p class="descip">4 delicous fried chicken strips.</p>
             <p class="card-text">€5.50</p>
           </div>
         </div>
@@ -361,7 +324,7 @@
         <div class="card mb-4">
           <div class="card-body">
             <h5 class="card-title">Curly Fries</h5>
-            <p class="card-text">A batch of our very own signature curly fries.</p>
+            <p class="descip">A batch of our very own signature curly fries.</p>
             <p class="card-text">€3.50</p>
           </div>
         </div>

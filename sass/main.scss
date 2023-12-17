@@ -38,6 +38,11 @@ header {
     text-align: center;
 }
 
+.menu{
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .menu-container {
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -53,8 +58,8 @@ header {
     padding-left: 10%;
 }
 .img-aboutus{
-    width:250px;
-    height: 250px;
+    width:300px;
+    height: 300px;
 }
 // 
 .galContainer {
@@ -98,22 +103,22 @@ header {
     
     
 
-    .item-details {
-        h2 {
-            font-size: 1.2em;
-            margin-bottom: 5px;
-        }
+    // .item-details {
+    //     h2 {
+    //         font-size: 1.2em;
+    //         margin-bottom: 5px;
+    //     }
 
-        p {
-            font-size: 0.9em;
-            margin-bottom: 10px;
-        }
+    //     p {
+    //         font-size: 0.9em;
+    //         margin-bottom: 10px;
+    //     }
 
-        .price {
-            font-weight: bold;
-            color: #d9534f; // Bootstrap's danger color
-        }
-    }
+    //     .price {
+    //         font-weight: bold;
+    //         color: #d9534f; // Bootstrap's danger color
+    //     }
+    // }
 }
 
 footer {
